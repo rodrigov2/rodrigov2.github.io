@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#header {
+  position: absolute;
+  z-index: 10000;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 52px;
+  margin-top: 30px;
+
+}
+
+h3 {
+  margin: 10px;
+}
+
+img {
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 200px;
+  font-family: 'Bangers', cursive;
+}
+
+h2 {
+  margin: 0;
+  font-size: 52px;
+  font-family: sans-serif;
+}
+
+div {
+  max-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.box {
+  text-align: center;
+  position: absolute;;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#rod > .overlay {
+  background-color: rgba(0,188,212, 0.5);
+}
+
+#tim > .overlay {
+  background-color: rgba(139,195,74,0.5);
+}
+
+#mom > .overlay {
+  background-color: rgba(103,58,183, 0.5);
+}
+
+#dad > .overlay {
+  background-color: rgba(96,125,139, 0.5);
+}
+
+#bry > .overlay {
+  background-color: rgba(121,85,72, 0.5);
+}
+
+dad => blue grey
+mom => deep puple
+tim => light green
+bry => brown
+rod => cyan
